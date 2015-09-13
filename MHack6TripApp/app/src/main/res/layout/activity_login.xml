@@ -36,6 +36,15 @@
                 android:layout_width="match_parent" android:layout_height="wrap_content"
                 android:layout_marginTop="16dp" android:text="@string/action_sign_in"
                 android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/wetour" />
+            <TextView android:text="We Tour" android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/appname" android:layout_below="@+id/logo" android:paddingTop="10dip"
+                />
 
         </LinearLayout>
     </ScrollView>
